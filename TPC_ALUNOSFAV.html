@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #050507;
+        color: #FFF;
+    }
+
+    .pagina{
+        display: flex;
+        color: #c7c7c7;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .menu-alunos{
+        background-color: rgb(90, 142, 220, 0.1);
+        border-right: 2px solid #96deff;
+        width: 220px;
+        padding: 24px 18px;
+    }
+
+    .menu-alunos ul{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .menu-alunos li{
+        display: flex;
+        gap: 10px;
+        padding: 10px 6px;
+        border-bottom: 1px solid #b2b2de;
+    }
+
+    .posicao{
+        width: 22px;
+        color: #d0d0d0;
+        font-weight: bold;
+        text-align: right;
+        border-right: 3px solid #FFF;
+
+    }
+
+    .sobreoprof{
+
+        background-color: rgb(46, 50, 92);
+        color: #b2b2de;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    main li{
+        text-align: center;
+    }
+</style>
+
+<body>    
+    <div class="pagina">
+
+        <aside class="menu-alunos">
+
+            <h1> Ranking Alunos Favoritos</h1>
+
+            <ul>
+                <li><span class="posicao" style="border-right-color: aqua;"> 1</span>Luana </li>
+                <li><span class="posicao" style="border-right-color: brown;">2</span>Virgilio</li>
+                <li><span class="posicao" style="border-right-color: blueviolet;">3</span>Neto</li>
+                <li><span class="posicao" style="border-right-color: #050507;">4</span>caputo</li>
+                <li><span class="posicao" style="border-right-color: #b2b2de;">5</span>Nielsen</li>
+                <li><span class="posicao" style="border-right-color: blue;">6</span>Gustavo</li>
+                <li><span class="posicao" style="border-right-color: coral;">7</span>Diogo</li>
+                <li><span class="posicao" style="border-right-color: darkgreen;">8</span>Felipe</li>
+                <li><span class="posicao" style="border-right-color: deeppink;">9</span>Sayem</li>
+                <li><span class="posicao" style="border-right-color: lawngreen;">10</span>Pamela</li>
+                <li><span class="posicao" style="border-right-color: dimgray;">11</span>Hayden</li>
+                <li><span class="posicao" style="border-right-color: sandybrown;">12</span>Gabriel</li>
+            </ul>
+            
+        </aside>
+
+        <main class="sobreoprof">
+
+            <h1>Sobre o Prof</h1>
+
+            <p> O prof é magnifico porque da aulas em alunos magnificos</p>
+
+            <h2>Porquê ele é magnifico? </h2>
+
+            <ul>
+                <li>Nos da chocolates</li>
+                <li>É do melhor time de <span style="color: red;">Portugal!!!s</span></li>
+                <li>Torna as aulas divertidas e interessantes.</li>
+            </ul>
+        </main>
+    </div>
+</body>
+</html>
